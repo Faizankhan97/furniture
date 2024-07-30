@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+
+html{
+    overflow-x: hidden;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.active-route{
+    font-weight: bold;
+}
+.top_banner_inner_card{
+    background-color: #fef2e2;
+}
+.buy_now_button{
+    background-color: #b88e28 !important;
+}
+.discover_text{
+    color: #d5bd7f;
+}
+.top_banner_section{
+    background-color: #eeeeee;
+}
+.top_banner_section .card-img{
+    height: 600px;
+}
+.browse_range_img{
+    height: 420px;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.our_product .card-img-top{
+    height: 300px;
+}
+.our_product .card .card-body{
+    background-color: #eeeeee;
+}
+.badge{
+    background-color: #e26d78;
+    width: 30px;
+    height: 30px;
+}
+.badge.active{
+    background-color: #42c2b0;
+    width: 30px;
+    height: 30px;
+}
+.overlay_product{
+    background-color: #6363635c;
+    transition: 0.5s;
+    bottom: -420px;
+}
+.our_pr_overlay:hover .overlay_product{
+    bottom: 0;
+    transition: 0.5s;
+}
+.our_pr_overlay:hover .badge{
+    display: none !important;
+}
+.add_to_cart_btn{
+    color: #b88e28;
+}
+.price_text{
+    color: #a4a1a1;
+}
+.submit_button{
+    background-color: #b88e28;
+}
